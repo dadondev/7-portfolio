@@ -79,6 +79,7 @@ form {
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 1.2rem;
+    background-color: inherit;
 }
 .class-box:nth-child(1) select{
     width: 80%;
@@ -96,4 +97,5 @@ margin-bottom: 5px;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 1.2rem;
+    background-color: inherit;
 }
