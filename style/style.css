@@ -1,24 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body{
-    height: 100%;
+html,
+body {
+  height: 1000px;
 }
-body{
-    font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-button{
-    font-family: inherit;
+button {
+  font-family: inherit;
 }
-.nav{
-    padding: 20px 15px;
-    background-color: #eee;
+select{
+    outline: none;
+}
+.container {
+  padding: 9px 14px;
+}
+header {
+  position: sticky;
+  top: 0;
+  background: inherit;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-number {
+  padding: 9px 13px;
+  border: 1px solid;
+  color: #fff;
+  background-color: #00bafc;
+  border-radius: 5px;
+}
+.phone-number span i {
+  margin-right: 3px;
+}
+section {
+  padding-top: 30px;
+}
+form {
+  width: 100%;
+}
+.form-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.classes {
+  display: flex;
+}
+.class-box{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
