@@ -72,12 +72,12 @@ form {
   gap: 5px;
 }
 .class-box label {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .class-box select {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-size: 1.2rem;
   background-color: inherit;
 }
@@ -90,40 +90,41 @@ form {
   margin-bottom: 10px;
 }
 .box-subject label {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 5px;
 }
 .box-subject select {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-size: 1.2rem;
   background-color: inherit;
 }
 .box-dates {
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
 }
 .box-date {
-  flex-grow: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 .box-date label {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 5px;
 }
 
 .box-date input {
-  width: 80%;
+  width: 95%;
   border: 1px solid black;
   border-radius: 5px;
   font-size: 1.2rem;
   background-color: inherit;
-  padding: 5px 0;
+  padding: 10px 0;
   outline: none;
 }
-.box-time input{
-  width: 95%;
+.box-time input {
+  width: 100%;
 }
