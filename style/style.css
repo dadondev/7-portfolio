@@ -55,8 +55,8 @@ form {
   text-align: center;
   margin-bottom: 15px;
 }
-.class-boxes{
-    margin-bottom: 10px;
+.class-boxes {
+  margin-bottom: 10px;
 }
 .class-boxes h2 {
   margin-bottom: 8px;
@@ -66,38 +66,39 @@ form {
   justify-content: space-between;
 }
 .class-box {
-    flex-grow: 1;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.class-box label{
-    font-size: 1rem;
+.class-box label {
+  font-size: 1rem;
 }
-.class-box select{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 1.2rem;
-    background-color: inherit;
+.class-box select {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  background-color: inherit;
 }
-.class-box:nth-child(1) select{
-    width: 80%;
+.class-box:nth-child(1) select {
+  width: 80%;
 }
-.box-subject{
-    display: flex;
-    flex-direction: column;
+.box-subject {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
-.box-subject label{
-font-size: 1rem;
-margin-bottom: 5px;
+.box-subject label {
+  font-size: 1rem;
+  margin-bottom: 5px;
 }
-.box-subject select{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 1.2rem;
-    background-color: inherit;
+.box-subject select {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  background-color: inherit;
 }
 .box-dates {
   display: flex;
