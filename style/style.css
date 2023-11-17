@@ -99,3 +99,30 @@ margin-bottom: 5px;
     font-size: 1.2rem;
     background-color: inherit;
 }
+.box-dates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-date {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.box-date label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.box-date input {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: inherit;
+  padding: 5px 0;
+  outline: none;
+}
+.box-time input{
+  width: 95%;
+}
