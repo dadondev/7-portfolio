@@ -18,6 +18,10 @@ button {
 }
 select {
   outline: none;
+  font-family: inherit;
+}
+input{
+  font-family: inherit;
 }
 .container {
   padding: 9px 14px;
@@ -77,7 +81,7 @@ form {
 .class-box select {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 8px 10px;
+  padding: 5px 10px;
   font-size: 1.2rem;
   background-color: inherit;
 }
@@ -96,7 +100,7 @@ form {
 .box-subject select {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 8px 10px;
+  padding: 5px 10px;
   font-size: 1.2rem;
   background-color: inherit;
 }
@@ -123,32 +127,54 @@ form {
   border-radius: 5px;
   font-size: 1.2rem;
   background-color: inherit;
-  padding: 8px 0;
+  padding: 5px 0;
   outline: none;
 }
 .box-time input {
   width: 100%;
 }
-.school-tables{
+.school-tables {
   display: flex;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
-.school-table{
+.school-table {
   width: 50%;
   display: flex;
   gap: 5px;
   flex-direction: column;
 }
-.school-table label{
+.school-table label {
   font-size: 1rem;
 }
-.school-table select{
+.school-table select {
   width: 100%;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 8px 10px;  
+  padding: 5px 10px;
   font-size: 1.2rem;
   background-color: inherit;
+}
+.class-fixes{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.class-fix {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.class-fix input {
+  width: 100%;
+  padding: 6px 10px;
+  color: black;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid;
 }
