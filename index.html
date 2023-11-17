@@ -18,8 +18,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
+    <div id="preloader">
+      <img src="./images/load.gif" alt="gif">
+    </div>
     <header>
       <div class="container">
         <div class="nav">
@@ -79,26 +88,26 @@
               </select>
             </div>
             <div class="school-table many-table">
-              <label for="table">Nechanchi soat</label>
+              <label for="table">Soat</label>
               <select name="table" id="table">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
+                <option value="1">1-soat</option>
+                <option value="2">2-soat</option>
+                <option value="3">3-soat</option>
+                <option value="4">4-soat</option>
+                <option value="5">5-soat</option>
+                <option value="6">6-soat</option>
+                <option value="7">7-soat</option>
               </select>
             </div>
           </div>
           <div class="class-fixes">
             <div class="class-fix">
               <label for="come">Sinfda jami</label>
-              <input type="number" name="come" id="come">
+              <input type="number" name="come" id="come" />
             </div>
             <div class="class-fix">
               <label for="come">Davomat</label>
-              <input type="number" name="come" id="come">
+              <input type="number" name="come" id="come" />
             </div>
           </div>
         </form>
