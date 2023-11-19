@@ -27,93 +27,33 @@
   </head>
   <body>
     <div id="preloader">
-      <img src="./images/load.gif" alt="gif">
+      <img src="./images/load.gif" alt="gif" />
     </div>
+
     <header>
       <div class="container">
-        <div class="nav">
-          <div class="logo">
-            <a href="#"><img src="./images/log.svg" alt="logo" /></a>
+        <nav class="nav">
+          <div class="nav-logo">
+            <a href="#"><img src="./images/log.svg" alt="nav-logo" /></a>
           </div>
-          <div class="phone-number">
+          <div class="nav-phone">
             <span><i class="fa fa-phone"></i>+998911231206</span>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
-    <section>
+
+    <section id="hero">
       <div class="container">
-        <form action="">
-          <div class="box class-boxes">
-            <h2 class="form-title">Sinf haqida malumot !</h2>
-            <div class="classes">
-              <div class="class-box">
-                <label for="class">Nechanchi sinf</label>
-                <select id="class" class="class" name="class">
-                  <option value="1">1</option>
-                </select>
-              </div>
-              <div class="class-box">
-                <label for="class1">Qaysi sinf</label>
-                <select id="class1" class="class1" name="class1">
-                  <option value="A">A</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="box box-subjects">
-            <div class="box-subject">
-              <label for="subject">Fan</label>
-              <select name="subject" id="subject">
-                <option value="matematika">Matematika</option>
-              </select>
-            </div>
-          </div>
-          <div class="box box-dates">
-            <div class="box-date">
-              <label for="date"> Sana </label>
-              <input type="date" name="date" id="date" />
-            </div>
-            <div class="box-date box-time">
-              <label for="time">Vaqt</label>
-              <input type="time" name="time" id="time" />
-            </div>
-          </div>
-          <div class="school-tables">
-            <div class="school-table work-table">
-              <label for="rejim">Rejim</label>
-              <select name="table" id="rejim">
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class="school-table many-table">
-              <label for="table">Soat</label>
-              <select name="table" id="table">
-                <option value="1">1-soat</option>
-                <option value="2">2-soat</option>
-                <option value="3">3-soat</option>
-                <option value="4">4-soat</option>
-                <option value="5">5-soat</option>
-                <option value="6">6-soat</option>
-                <option value="7">7-soat</option>
-              </select>
-            </div>
-          </div>
-          <div class="class-fixes">
-            <div class="class-fix">
-              <label for="come">Sinfda jami</label>
-              <input type="number" name="come" id="come" />
-            </div>
-            <div class="class-fix">
-              <label for="come">Davomat</label>
-              <input type="number" name="come" id="come" />
-            </div>
-          </div>
-        </form>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Har soatda <br />
+            <span class="typer" data-words="to'ldirish !,yuborish !,tekshirish !" data-colors="#00bafc"></span>
+          </h1>
+        </div>
       </div>
     </section>
-
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
