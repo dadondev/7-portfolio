@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -34,11 +33,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 header {
   width: 100%;
@@ -46,7 +45,7 @@ header {
   position: sticky;
   background: #fff;
   -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
 }
 .nav {
@@ -55,11 +54,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .nav-logo a img {
   height: 25px;
@@ -80,6 +79,7 @@ header {
 /* Header styles end */
 #hero {
   width: 100%;
+  margin-bottom: 60px;
 }
 #hero .container {
   height: 500px;
@@ -181,4 +181,41 @@ header {
     line-height: 35px;
     font-size: 2rem;
   }
+}
+/* Hero styles end */
+#form {
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+#form .container {
+  border-radius: 0.7rem;
+  background: #fff;
+  padding: 4rem 8rem;
+}
+form {
+  display: flex;
+}
+.left-form {
+  flex-grow: 1;
+}
+.classes-about {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.box-class {
+  width: 50%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.box-class select {
+  width: 190px;
+  padding: 0.4rem 1.2rem;
+  color: black;
+  font-family: inherit;
+}
+.class-subjects{
+  width: 100%;
 }
