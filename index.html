@@ -29,7 +29,6 @@
     <div id="preloader">
       <img src="./images/load.gif" alt="gif" />
     </div>
-
     <header>
       <div class="container">
         <nav class="nav">
@@ -90,11 +89,71 @@
               </div>
             </div>
             <div class="class-subjects">
-              <label for="subject">Fan</label>
-              <select name="subject" id="subject">
-                <option value="o'qish">O'qish</option>
-                <option value="">O'qish</option>
-              </select>
+              <div class="class-subject">
+                <label for="subject">Fan</label>
+                <select name="subject" id="subject">
+                  <option value="o'qish">O'qish</option>
+                  <option value="ona-tili">Ona tili</option>
+                  <option value="atrofolam">Atrofolam</option>
+                </select>
+              </div>
+              <div class="class-subject1">
+                <label for="soat">Soat</label>
+                <select name="soat" id="soat">
+                  <option value="1-soat">1-soat</option>
+                  <option value="2-soat">2-soat</option>
+                  <option value="3-soat">3-soat</option>
+                  <option value="4-soat">4-soat</option>
+                  <option value="5-soat">5-soat</option>
+                  <option value="6-soat">6-soat</option>
+                  <option value="7-soat">7-soat</option>
+                </select>
+              </div>
+            </div>
+            <div class="class-dates">
+              <div class="class-date">
+                <label for="day">Sana</label>
+                <input type="date" id="date" />
+              </div>
+              <div class="class-date">
+                <label for="day">Vaqt</label>
+                <input type="time" id="time" />
+              </div>
+            </div>
+          </div>
+          <div class="form-right">
+            <div class="classes-about">
+              <div class="class-about">
+                <label for="all">Jami</label>
+                <input type="number" id="all" placeholder="30" />
+              </div>
+              <div class="class-about">
+                <label for="all">Darsda</label>
+                <input type="number" id="alesson" placeholder="29" />
+              </div>
+            </div>
+            <div class="classes-about">
+              <div class="class-about">
+                <label for="book-minus">Kitob</label>
+                <input type="number" id="book-minus" placeholder="2" />
+              </div>
+              <div class="class-about">
+                <label for="copy-minus">Daftar</label>
+                <input type="number" id="copy-minus" placeholder="3" />
+              </div>
+            </div>
+            <div class="form-send">
+              <div class="form-check">
+                <label for="tekshirdim">Tastiqlash</label>
+                <div class="texts">
+                  <input type="checkbox" name="tekshirdim" id="tekshirdim" />
+                  <label>Tekshirdim</label>
+                </div>
+              </div>
+              <div class="form-send-btn">
+                <label for="submit">Yuborish</label>
+                <button id="submit" type="submit">Yuborish</button>
+              </div>
             </div>
           </div>
         </form>
