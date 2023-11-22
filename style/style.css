@@ -326,6 +326,7 @@ form {
     max-width: 150px;
   }
 }
+
 @media screen and (max-width: 890px) {
   .box-class select {
     max-width: 130px;
