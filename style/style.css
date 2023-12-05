@@ -190,7 +190,12 @@ form button {
   align-items: center;
   gap: 5px;
 }
+#tekshirdim {
+  height: 20px;
+  width: 20px;
+}
 .texts button {
+  cursor: pointer;
   width: 100%;
   font-family: inherit;
   font-size: 1rem;
@@ -372,6 +377,7 @@ form button {
     display: flex;
     flex-direction: row;
   }
+
   .texts {
     display: flex;
     flex-direction: row;
@@ -413,13 +419,28 @@ form button {
     height: 370px;
     background-size: 300px auto;
   }
+  form select,
+  form input,
+  form button,
+  #tekshirdim {
+    padding: 3px 7px 5px 7px;
+    height: 35px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  #tekshirdim {
+    width: 20px;
+    height: 20px;
+  }
 }
 @media screen and (max-width: 327px) {
   .form-left,
   .form-right {
     width: 230px;
   }
-  #date, #time {
+  #date,
+  #time {
     width: 105px;
   }
   #hero .container {
