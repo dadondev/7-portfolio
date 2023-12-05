@@ -424,14 +424,14 @@ form button {
   form button,
   #tekshirdim {
     padding: 3px 7px 5px 7px;
-    height: 35px;
+    height: 40px;
     font-family: inherit;
     font-size: 1.2rem;
     width: 100%;
   }
   #tekshirdim {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media screen and (max-width: 327px) {
